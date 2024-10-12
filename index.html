@@ -1,0 +1,57 @@
+
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>First survey ever</title>
+    <link rel="stylesheet" href="styles.css"/>
+  </head>
+  <body>
+    <h1 id="title">First survey ever</h1>
+    <p id="description">Thankyou for saving the time to help me improve the platform</p>
+     <form id="survey-form" action='https://survey-form.freecodecamp.rocks/?name=Jan&email=jan.mlinaric%40gmail.com&age=22&role=student&user-recommend=definitely&mostLike=challenges&prefer=back-end-projects&comment=a'>
+    <fieldset>
+<label for="name-label" id="name-label">Enter your name:<input id="name" name="name" type="text" required placeholder="Please enter your full name"></label>
+<label for="email-label" id="email-label">Enter your email id:<input id="email" name="email" type="email" placeholder="Please enter your email-id" required></label>
+<label for="number-label" id="number-label">Enter your age:(optional)<input id="number" name="age" type="number" min="10" max="99" placeholder="Age"></label>
+<label for="current-role">Enter your current role<select id="dropdown" name="dropdown">
+<option value="">(select current role)</option>
+<option value="1">Student</option>
+<option value="2">Full Time Job</option>
+<option value="3">Full time learner</option>
+<option value="4">Prefer not to say</option>
+<option value="5">Other</option></select></label>
+</fieldset>
+      <fieldset>
+        <label> Would you like to learn more about coding?</label>
+          <label><input type="radio" class="inline" name="attribute" value="1" checked /> Definitely</label>
+          <label><input type="radio" class="inline" name="attribute" value="2" /> Maybe</label>
+          <label><input type="radio" class="inline" name="attribute" value="3" /> Not sure</label>
+      </fieldset>
+
+
+<fieldset>
+<label for="hobby">What are your favourite hobbies</label>
+<ol><input type="checkbox" class="inline" value="1">Dancing</ol>
+<ol><input type="checkbox"  class="inline" value="2">Singing</ol>
+<ol><input type="checkbox" class="inline" value="3">Athletics</ol>
+<ol><input type="checkbox" class="inline" value="4">Painting</ol>
+<ol><input type="checkbox" class="inline" value="5">Writing</ol>
+<ol><input type="checkbox" class="inline" value="6">Swimming</ol>
+<ol><input type="checkbox" class="inline" value="7">Other</ol>
+</fieldset>
+<fieldset>
+  <label for="anything">Anything more you would like to share</label>
+  <textarea id="anything" placeholder="Feel free to share"></textarea>
+  </label>
+  </fieldset>
+  <input id="submit" type="submit" value="Submit">
+  </form>
+  </body>
+  </html>
+
+
+
+
+
